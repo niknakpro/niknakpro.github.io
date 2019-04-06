@@ -1,0 +1,122 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.timer .wrapper-example ul#example
+		width: 90%
+
+	.feed-back
+		margin-top: -480px
+// ≥992px
++media-breakpoint-down(md)
+	.timer .wrapper-example ul#example
+		width: 100%
+	.timer .wrapper-example ul#example li
+		padding-top: 8px
+		font-size: 4rem
+	.timer .wrapper-example ul#example li span
+		width: 80px
+	.timer .wrapper-example ul#example li p
+		font-size: 1rem
+		padding-top: 0
+
+	.feed-back
+		margin-top: -370px
+	.feed-back .welcome
+		text-align: center
+		margin-right: 0
+	.feed-back .form-feedback
+		margin-right: 0
+		margin-top: 50px
+
+	.table-time table tr td:last-child
+		width: 50px
+	.table-time p
+		margin: 0 10px
+
+	footer .wrapper-up
+		margin-left: 110px
+
+	.rewards .rewards-info
+		text-align: center
+	.rewards .rewards-info p
+		margin-left: 0
+
+	.galery .galery-photo a
+		width: 200px
+		height: 200px
+
+	footer .wrapper-up
+		margin-left: 0
+	footer .wrapper-footer-social
+		margin-left: 0
+
+	.s-contact-map .wrapper-contact-map .wrapper-container-map .view-map
+		padding: 0
+// ≥768px
++media-breakpoint-down(sm)
+	.timer .wrapper-example ul#example li
+		line-height: 60px
+	.timer .wrapper-example ul#example li span
+		margin: 0
+	.timer .wrapper-example ul#example li p
+		line-height: 40px
+		font-size: .8rem
+	.s-contact-map .wrapper-contact-map .wrapper-container-map .form-back
+		margin-top: 0
+		margin-left: 20px
+	.s-contact-map .wrapper-contact-map .wrapper-container-map .form-back form
+		margin-right: 20px
+
+	.hero-shot
+		height: 0
+
+	.sponsor .sponsor-img ul li:nth-child(3)
+		display: none
+	.sponsor .sponsor-img ul li:nth-child(2)
+		margin-right: 0
+// ≥576px
++media-breakpoint-down(xs)
+	.timer .wrapper-example ul#example
+		width: 86%
+	.timer .wrapper-example ul#example li
+		font-size: 2rem
+		padding-top: 0
+		line-height: 48px
+	.timer .wrapper-example ul#example li span
+		width: 50px
+	.timer .wrapper-example ul#example li p
+		line-height: 10px
+		font-size: .6rem
+
+	.feed-back
+		margin-bottom: 100px
+
+	.table-time
+		margin-bottom: 370px
+
+	.sponsor .sponsor-img ul li:nth-child(2)
+		display: none
+	.sponsor .sponsor-img ul li:nth-child(1)
+		margin-right: 0
+
+	footer .wrapper-footer-social .social ul li
+		display: block
+		margin-right: 0
+		margin-bottom: 10px
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

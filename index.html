@@ -1,10 +1,646 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Hello Dolly</title>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Leaf</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#90d23d">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
 </head>
+
 <body>
-	<h1>NikNak Kazinak</h1>
+
+	<header>
+		<div class="top-menu-wrapper">
+			<div class="container h-100">
+				<div class="row h-100">
+					<div class="col-xl-5 col-lg-3 col-3">
+						<div class="logo">
+							<a href="#"><img src="img/logo/leaf.svg" alt="leaf"></a>
+							<p><a href="#">leaf<br><span>Bangladesh</span></a></p>
+						</div>
+					</div>
+					<div class="col-xl-7 col-lg-9 d-none d-xl-block d-lg-block">
+						<nav class="top-menu">
+							<ul>
+								<li><a class="scrollLink" href="#anchor1">Event Details</a></li>
+								<li><a class="scrollLink" href="#anchor2">Speakers</a></li>
+								<li><a class="scrollLink" href="#anchor3">Sponsors</a></li>
+								<li><a class="scrollLink" href="#anchor4">Past Events</a></li>
+								<li><a class="scrollLink" href="#anchor5">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-9 d-xl-none d-lg-none">
+						<button class="hamburger hamburger--3dx" type="button">
+							<span class="hamburger-box">
+								<span class="hamburger-inner"></span>
+							</span>
+						</button>
+						
+						<nav class="hidden-menu">
+							<ul>
+								<li><a class="scrollLink" href="#anchor1">Event Details</a></li>
+								<li><a class="scrollLink" href="#anchor2">Speakers</a></li>
+								<li><a class="scrollLink" href="#anchor3">Sponsors</a></li>
+								<li><a class="scrollLink" href="#anchor4">Past Events</a></li>
+								<li><a class="scrollLink" href="#anchor5">Contact</a></li>
+							</ul>
+						</nav>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="timer">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 .col-lg-12">
+						<div class="wrapper-example">
+							
+							<ul id="example">
+								<li><span class="days">00</span><p class="days_text">Days</p></li>
+								<li class="seperator">:</li>
+								<li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+								<li class="seperator">:</li>
+								<li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+								<li class="seperator">:</li>
+								<li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-shot">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 col-md-12 d-none d-md-block">
+						
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<div class="oblique-line"></div>
+
+	<div class="context">
+		<div class="feed-back">
+			<div class="container">
+				<div class="row align-items-end">
+					<div class="col-xl-7 col-lg-7 col-md-12">
+						<div class="welcome">
+							<h1>Welcome!</h1>
+							<p>The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...</p>
+
+							<p>Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!</p>
+
+							<p>It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;) Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our nvite page here too!</p>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-5 col-md-12">
+						<div class="form-feedback">
+							<form class="form-top">
+								<h2>Sign up for our event</h2>
+
+								<!-- Hidden Required Fields -->
+								<input type="hidden" name="project_name" value="Leaf">
+								<input type="hidden" name="admin_email" value="nikitaopichev@gmail.com">
+								<input type="hidden" name="form_subject" value="Заявка с верхней формы">
+								<!-- END Hidden Required Fields -->
+
+								<input type="text" autocomplete="on" maxlength="100" size="40" placeholder="Enter your name" required>
+								<input type="email" autocomplete="on" maxlength="100" size="40" placeholder="Enter your email" required>
+								<input type="text" autocomplete="on" maxlength="100" size="40" placeholder="Phone number">
+								<input type="text" autocomplete="on" maxlength="100" size="40" placeholder="Evanto Username">
+								<button>Let me in!</button>
+
+								<p>Hurry up, Limited seats availble <br>
+								*we will never spam your email</p>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="event-details">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-md-4 col-lg-4 col-sm-6">
+						<div class="wrapper-event">
+							<div class="img-fon"></div>
+							<h2>Community</h2>
+							<p>Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation
+							and topics. We will have loads of fun.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-4 col-lg-4 col-sm-6">
+						<div class="wrapper-event">
+							<div class="img-fon img-fon-2"></div>
+							<h2>Talk Shop</h2>
+							<p>In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.</p>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-4 col-lg-4 d-md-block d-sm-none">
+						<div class="wrapper-event">
+							<div class="img-fon img-fon-3"></div>
+							<h2>War Stories</h2>
+							<p>Gather round fellow authors! Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="table-time">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						
+						<table>
+							<tr class="table-title">
+								<th>Time</th>
+								<th>Stuff that will happen</th>
+								<th></th>
+							</tr>
+
+							<tr class="one">
+								<td>10am - 12pm</td>
+								<td>Introduction and presentations about Envato</td>
+								<td class="anim-td"></td>
+							</tr>
+
+							<!-- выдвигающийся -->
+							<tr class="visition visition-one">
+								<td>New enent</td>
+								<td>Text</td>
+								<td class="without-plus"></td>
+							</tr>
+							<!-- выдвигающийся -->
+
+							<tr class="two">
+								<td>12pm - 02pm</td>
+								<td>Introduction and presentations about Envato</td>
+								<td class="anim-td"></td>
+							</tr>
+
+							<!-- выдвигающийся -->
+							<tr class="visition visition-two">
+								<td>Popular</td>
+								<td>Text</td>
+								<td class="without-plus"></td>
+							</tr>
+							<!-- выдвигающийся -->
+
+							<tr class="three">
+								<td>02pm - 03pm</td>
+								<td>Introduction and presentations about Envato</td>
+								<td class="anim-td"></td>
+							</tr>
+
+							<!-- выдвигающийся -->
+							<tr class="visition visition-three">
+								<td>New enent</td>
+								<td>Text</td>
+								<td class="without-plus"></td>
+							</tr>
+							<!-- выдвигающийся -->
+
+							<tr class="last-tr">
+								<td>03pm - 05pm</td>
+								<td>Introduction and presentations about Envato</td>
+								<td class="without-plus"></td>
+							</tr>
+
+						</table>
+
+						<p>Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish it within our set time but it doesn’t have to be, if we all agree to hangour for some time more, what harm could it do? :)</p>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="oblique-line color-dark"></div>
+
+		<div class="rewards">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 d-none d-lg-block">
+						
+						<div class="elite"></div>
+
+					</div>
+					<div class="col-lg-8 col-md-12">
+						<div class="rewards-info">
+							
+							<h2 id="anchor1">We reward the Elites!</h2>
+							<p>Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.</p>
+							<p>All you have to do is contact us by clicking the button here and then its just going to the event, saying something motivational and taking that swag while looking amazing infront of thousands of other community members.</p>
+							<p>*Be advised, we will only give you Elite thank you swag for each level of elite you cross. That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.</p>
+							
+							<a href="#">Bring on the swag!</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="oblique-line"></div>
+
+		<div class="galery">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<div class="galery-title">
+							<h2 id="anchor2">Speakers</h2>
+							<p>Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business. Hope you will have a great time listening to our presentations!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-11">
+						<div class="galery-photo">
+							<div id="aniimated-thumbnials">
+								<a href="img/galery/dark_souls.jpg">
+									<img src="img/galery-miny/dark_souls_dark_souls_ii_art_igra_98201_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/assassins_creed.jpg">
+									<img src="img/galery-miny/assassins_creed_syndicate_jacob_frye_112077_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/far_cry.jpg">
+									<img src="img/galery-miny/far_cry_3_plyazh_igra_grafika_hdr_95932_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/playstation_geympad.jpg">
+									<img src="img/galery-miny/playstation_geympad_razbityy_22102_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/ruler_of.jpg">
+									<img src="img/galery-miny/ruler_of_the_land_krov_art_les_101986_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/star_wars.jpg">
+									<img src="img/galery-miny/star_wars_battlefront_electronic_arts_105865_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/the_elder.jpg">
+									<img src="img/galery-miny/the_elder_scrolls_online_mech_nochi_voin_assasin_assassin_ubijtsa_95957_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/world_of.jpg">
+									<img src="img/galery-miny/world_of_tanks_world_of_warplanes_world_of_warships_wargaming_net_wows_97745_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+								<a href="img/galery/dark_souls.jpg">
+									<img src="img/galery-miny/dark_souls_dark_souls_ii_art_igra_98201_1280x1024.jpg" />
+									<div class="galery-promo">
+										<h3>Shahriyer Shuvo</h3>
+										<p>More about selling in the Envanto Market</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="oblique-line color-dark"></div>
+
+		<div class="sponsor">
+			
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-7 col-lg-8 col-md-12">
+						<div class="sponsor-title">
+							<h2 id="anchor3">Sponsor Our Event!</h2>
+							<p>If you want to help us making this event lively and successful, help us by sponsoring our event! This will help us bring in more people, have better livestreaming equipment, maybe even our own chef! You can also sponsor us by giving away free swag at the event!<br><br>Here’s who have sponsored us already:</p>
+						</div>
+
+						<div class="sponsor-img">
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+
+							<a href="#">Sponsor Us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="oblique-line"></div>
+
+		<div class="tiles">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6">
+						<h2 id="anchor4">Past Events</h2>
+						<p>Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We’re always planning to make our future events feel fresh and fun to be at. :)</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="tiles-imgs" id="demo">
+							
+							<div id="gallery" style="display:none;">
+		
+								<img alt="Image 1 Title" src="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_320x240.jpg"
+									data-image="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_1920x1080.jpg"
+									data-description="Image 1 Description">
+								
+								<img alt="Image 2 Title" src="img/big-foto/chernyy_svet_temnyy_figurki_73356_320x240.jpg"
+									data-image="img/big-foto/chernyy_svet_temnyy_figurki_73356_1920x1080.jpg"
+									data-description="Image 2 Description">
+
+								<img alt="Image 3 Title" src="img/big-foto/kub_ogon_temnyy_svet_splav_36536_320x480.jpg"
+								data-image="img/big-foto/kub_ogon_temnyy_svet_splav_36536_720x1280.jpg"
+								data-description="Image 3 Description">
+							
+								<img alt="Image 4 Title" src="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_320x240.jpg"
+								data-image="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_1920x1080.jpg"
+								data-description="Image 4 Description">
+
+								<img alt="Image 1 Title" src="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_320x240.jpg"
+									data-image="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_1920x1080.jpg"
+									data-description="Image 1 Description">
+								
+								<img alt="Image 2 Title" src="img/big-foto/chernyy_svet_temnyy_figurki_73356_320x240.jpg"
+									data-image="img/big-foto/chernyy_svet_temnyy_figurki_73356_1920x1080.jpg"
+									data-description="Image 2 Description">
+
+								<img alt="Image 3 Title" src="img/big-foto/kub_ogon_temnyy_svet_splav_36536_320x480.jpg"
+								data-image="img/big-foto/kub_ogon_temnyy_svet_splav_36536_720x1280.jpg"
+								data-description="Image 3 Description">
+							
+								<img alt="Image 4 Title" src="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_320x240.jpg"
+								data-image="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_1920x1080.jpg"
+								data-description="Image 4 Description">
+
+								<img alt="Image 1 Title" src="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_320x240.jpg"
+									data-image="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_1920x1080.jpg"
+									data-description="Image 1 Description">
+								
+								<img alt="Image 2 Title" src="img/big-foto/chernyy_svet_temnyy_figurki_73356_320x240.jpg"
+									data-image="img/big-foto/chernyy_svet_temnyy_figurki_73356_1920x1080.jpg"
+									data-description="Image 2 Description">
+
+								<img alt="Image 3 Title" src="img/big-foto/kub_ogon_temnyy_svet_splav_36536_320x480.jpg"
+								data-image="img/big-foto/kub_ogon_temnyy_svet_splav_36536_720x1280.jpg"
+								data-description="Image 3 Description">
+							
+								<img alt="Image 4 Title" src="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_320x240.jpg"
+								data-image="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_1920x1080.jpg"
+								data-description="Image 4 Description">
+
+								<img alt="Image 1 Title" src="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_320x240.jpg"
+									data-image="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_1920x1080.jpg"
+									data-description="Image 1 Description">
+								
+								<img alt="Image 2 Title" src="img/big-foto/chernyy_svet_temnyy_figurki_73356_320x240.jpg"
+									data-image="img/big-foto/chernyy_svet_temnyy_figurki_73356_1920x1080.jpg"
+									data-description="Image 2 Description">
+
+								<img alt="Image 3 Title" src="img/big-foto/kub_ogon_temnyy_svet_splav_36536_320x480.jpg"
+								data-image="img/big-foto/kub_ogon_temnyy_svet_splav_36536_720x1280.jpg"
+								data-description="Image 3 Description">
+							
+								<img alt="Image 4 Title" src="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_320x240.jpg"
+								data-image="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_1920x1080.jpg"
+								data-description="Image 4 Description">
+
+								<img alt="Image 1 Title" src="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_320x240.jpg"
+									data-image="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_1920x1080.jpg"
+									data-description="Image 1 Description">
+								
+								<img alt="Image 2 Title" src="img/big-foto/chernyy_svet_temnyy_figurki_73356_320x240.jpg"
+									data-image="img/big-foto/chernyy_svet_temnyy_figurki_73356_1920x1080.jpg"
+									data-description="Image 2 Description">
+
+								<img alt="Image 3 Title" src="img/big-foto/kub_ogon_temnyy_svet_splav_36536_320x480.jpg"
+								data-image="img/big-foto/kub_ogon_temnyy_svet_splav_36536_720x1280.jpg"
+								data-description="Image 3 Description">
+							
+								<img alt="Image 4 Title" src="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_320x240.jpg"
+								data-image="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_1920x1080.jpg"
+								data-description="Image 4 Description">
+
+								<img alt="Image 1 Title" src="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_320x240.jpg"
+									data-image="img/big-foto/chernyy_fon_uzory_svet_tekstura_55291_1920x1080.jpg"
+									data-description="Image 1 Description">
+								
+								<img alt="Image 2 Title" src="img/big-foto/chernyy_svet_temnyy_figurki_73356_320x240.jpg"
+									data-image="img/big-foto/chernyy_svet_temnyy_figurki_73356_1920x1080.jpg"
+									data-description="Image 2 Description">
+
+								<img alt="Image 3 Title" src="img/big-foto/kub_ogon_temnyy_svet_splav_36536_320x480.jpg"
+								data-image="img/big-foto/kub_ogon_temnyy_svet_splav_36536_720x1280.jpg"
+								data-description="Image 3 Description">
+							
+								<img alt="Image 4 Title" src="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_320x240.jpg"
+								data-image="img/big-foto/doski_chrnyy_ryad_tekstura_fon_derevo_55220_1920x1080.jpg"
+								data-description="Image 4 Description">
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<section id="anchor5" class="s-contact-map">
+		<button class="view-form">View Form</button>
+		<iframe class="google-maps-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22286.43235128628!2d151.19396734087636!3d-33.8665197449726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2z0KHQuNC00L3QtdC5INCd0L7Qsi4g0K7Qti4g0KPRjdC70YzRgSwg0JDQstGB0YLRgNCw0LvQuNGP!5e0!3m2!1sru!2sua!4v1554359296538!5m2!1sru!2sua" width="100%" height="660" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+		<div class="wrapper-contact-map">
+			
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-10 col-lg-12">
+
+						<div class="wrapper-container-map">
+							
+							<div class="container">
+								<div class="row">
+									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+										
+										<div class="view-map">
+											<div class="view-map-img"></div>
+											<p>Lorem Ipsum Avenue, 420/2 elm street, Melbourne, Sydney - 2122, Kingdom of Australia</p>
+											<button class="view-map-link">View Map</button>
+										</div>
+			
+									</div>
+									<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+										
+										<div class="form-back">
+								
+											<form class="form-bottom">
+
+												<!-- Hidden Required Fields -->
+												<input type="hidden" name="project_name" value="Leaf">
+												<input type="hidden" name="admin_email" value="nikitaopichev@gmail.com">
+												<input type="hidden" name="form_subject" value="Заявка с нижней формы">
+												<!-- END Hidden Required Fields -->
+
+												<input type="email" autocomplete="on" maxlength="100" size="40" placeholder="Enter your email" required>
+
+												<textarea placeholder="Type your message" maxlength="400"></textarea>
+
+												<button>Send Message</button>
+											</form>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-6 col-md-11">
+					<div class="wrapper-footer-social">
+						<div class="social">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<p>Hope you enjoyed this site! All Rights Reserved. Nikita Fedchenko © 2019</p>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="wrapper-up">
+						<div class="up">
+							<i class="fa fa-chevron-up" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/scripts.min.js"></script>
+	<script src="libs/lightgallery/dist/js/lightgallery.min.js"></script>
+	<script src="libs/lightgallery/modules/lg-thumbnail.min.js"></script>
+	<script src="libs/lightgallery/modules/lg-fullscreen.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#aniimated-thumbnials").lightGallery({
+				thumbnail:true
+			}); 
+		});
+	</script>
+	<script src="libs/unitegallery/js/unitegallery.min.js"></script>
+	<script src="libs/unitegallery/ug-theme-tiles.js"></script>
+	<script type="text/javascript"> 
+			
+			jQuery(document).ready(function(){ 
+				jQuery("#gallery").unitegallery({
+						tiles_type: "nested"						
+					});
+			}); 
+		
+		</script>
+		<script src="libs/show-more/jquery.show-more.js"></script>
+		<script>
+			$('#demo').showMore({
+				minheight: 500,
+				animationspeed: 250,
+				buttontxtmore: "View more",
+				buttontxtless: "Less more"
+			});
+		</script>
 </body>
 </html>
